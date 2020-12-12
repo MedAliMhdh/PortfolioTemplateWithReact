@@ -1,0 +1,25 @@
+.project-card {
+  cursor: pointer;
+  width: 300px;
+  /* margin : top/bottom  left/right  */
+  margin: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+.project-card:hover {
+  background-color: #a7bea975;
+  transform: translateY(-4px);
+}
+
+.project-card a {
+  color: rgb(61, 170, 221);
+  text-decoration: underline;
+}
+
+.project-card p {
+  padding: 10px;
+}
+
+.project-card img {
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+.header {
+  z-index: 1;
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  height: 80px;
+}
+
+.navmenu {
+  list-style: none;
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.navmenu li:hover {
+  color: #a7bea9;
+  text-decoration: underline;
+  cursor: pointer;
+}

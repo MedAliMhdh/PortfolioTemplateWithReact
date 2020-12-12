@@ -1,0 +1,19 @@
+.text-important {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #a7bea9;
+  font-size: 45px;
+}
+
+.about-me {
+  display: flex;
+  padding: 35px;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.168);
+}
+
+.avatar {
+  border-radius: 50%;
+}
